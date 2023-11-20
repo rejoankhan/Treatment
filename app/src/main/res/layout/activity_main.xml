@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/primary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/heading"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/marqueeTextView"
+        android:layout_below="@+id/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marquee"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="#1474BF"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_below="@+id/marqueeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="401dp"
+            android:layout_height="507dp"
+            android:layout_below="@+id/textV"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/doctor_picture"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="100dp"/>
+
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/neuDoctor"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_marginTop="5dp"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:text="বিশেষজ্ঞ ডাক্তারের তালিকা"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_margin="5dp"
+                app:neumorph_shapeType="flat"
+                >
+
+
+            </soup.neumorphism.NeumorphButton>
+            <ImageView
+                android:src="@drawable/hopital"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="100dp"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/neuHospital"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_marginTop="5dp"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:text=" রোগ অনুযায়ী ডাক্তারের তালিকা"
+                android:textStyle="bold"
+                android:layout_height="60dp"
+                android:textSize="19sp"
+                android:layout_margin="5dp"
+                app:neumorph_shapeType="flat"
+                >
+            </soup.neumorphism.NeumorphButton>
+            <ImageView
+                android:src="@drawable/ambulance"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="100dp"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/newAmbulance"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_marginTop="5dp"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:text="অ্যাম্বুল্যন্স লাগবে"
+                android:textStyle="bold"
+                android:layout_height="70dp"
+                android:textSize="22sp"
+                android:layout_margin="5dp"
+                app:neumorph_shapeType="flat"
+                >
+            </soup.neumorphism.NeumorphButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>

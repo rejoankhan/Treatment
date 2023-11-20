@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linTextSample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#6FAFDCDC"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+            <TextView
+                android:id="@+id/docNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="নামঃ জিয়া হায়দার বসুনিয়া"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/docDegreeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="ডিগ্রিঃ এমবিবিএস,এফসিপিএস (মেডিসিন),এমডি(হেপাটোলজি)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#675050"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/workStationId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="পদবী ও কর্মস্থলঃ সহকারী অধ্যাপক লিভার বিভাগ রংপুর মেডিকেল কলেজ"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#3C3CBF"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/specialistId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="বিশেষজ্ঞঃ লিভার ও লিভার ক্যান্সার, পরিপাকতন্ত্র, মেডিসিন ও এন্ডোসকপিস্ট"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#4CAF50"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/chamberTimeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:text="চেম্বারঃ মাম হাসপাতাল এন্ড ডায়াগনস্টিক সেন্টার,প্রতি শুক্রবার সকাল ০৯টা থেকে রাত ০৮টা"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#9E2680"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/callTextId"
+                    android:layout_width="133dp"
+                    android:layout_height="143dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="সিরিয়াল বুকিং করতে নাম্বারের উপর ক্লিক করুন"
+                    android:textColor="#F822FF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <soup.neumorphism.NeumorphButton
+                        style="@style/Widget.Neumorph.Button"
+                        android:id="@+id/firstCallId"
+                        android:text="01728508390"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        app:neumorph_shapeType="pressed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <soup.neumorphism.NeumorphButton
+                        style="@style/Widget.Neumorph.Button"
+                        android:id="@+id/secondCallId"
+                        android:text="01746309999"
+                        android:layout_marginTop="1dp"
+                        app:neumorph_shapeType="pressed"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

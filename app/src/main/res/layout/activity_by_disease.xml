@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ByDiseaseActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="620dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#14FF9800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disBrain"
+                style="@style/Widget.Neumorph.Button"
+                android:text="স্ট্রোক, মাথাব্যাথা ও ব্রেইনের ডাক্তার  "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disGyn"
+                style="@style/Widget.Neumorph.Button"
+                android:text=" গাইনি এন্ড অবস ডাক্তার   "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disEye"
+                style="@style/Widget.Neumorph.Button"
+                android:text="চোখের ডাক্তার  "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disChild"
+                style="@style/Widget.Neumorph.Button"
+                android:text=" শিশুর ডাক্তার  "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disHeart"
+                style="@style/Widget.Neumorph.Button"
+                android:text="ব্লাড প্রেসার ও হার্টের ডাক্তার  "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disOrtho"
+                style="@style/Widget.Neumorph.Button"
+                android:text="হাড়ভাংগা বাথ ব্যাথা প্যারালাইসিস ডাক্তার   "
+                android:textSize="19sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disLiver"
+                style="@style/Widget.Neumorph.Button"
+                android:text="লিভার, গ্যাস্ট্রিক ও পেটের ডাক্তার   "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disSkin"
+                style="@style/Widget.Neumorph.Button"
+                android:text="চর্ম ও যৌন রোগের ডাক্তার  "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disNeck"
+                style="@style/Widget.Neumorph.Button"
+                android:text="নাক, কান, গলার ডাক্তার "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disMedicine"
+                style="@style/Widget.Neumorph.Button"
+                android:text="ডায়বেটিকস ও ব্লাড প্রেসারের ডাক্তার   "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/disOthers"
+                style="@style/Widget.Neumorph.Button"
+                android:text=" কিডনি,ক্যানসার ও রক্তের ডাক্তার   "
+                android:textSize="22sp"
+                app:neumorph_shapeType="basin"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

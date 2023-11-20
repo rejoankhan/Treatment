@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchView"
+            app:queryBackground="@android:color/transparent"
+            android:visibility="visible"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search By Name Here"
+
+            />
+
+        <ListView
+            android:id="@+id/listViewID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#9C27B0"
+            android:dividerHeight="3dp"
+            android:listSelector="#6BF3F3" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

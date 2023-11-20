@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ঠাকুরগাঁও এ চিকিৎসা সেবা </string>
+    <string name="heading">সৃষ্টিকর্তা সর্বশক্তিমান</string>
+    <string name="heading_desc">আমরা আপনার সুবিধার্থে দুই ভাবে ডাক্তারের নাম ও সিরিয়াল নম্বর গুলি সাজিয়েছি</string>
+    <string name="nemorphism">Nemorphism</string>
+    <string name="splash"> ***অভিনন্দন*** আপনি সঠিক যায়গায় প্রবেশ করেছেন, অবশ্যই আপনার কাঙ্খিত ডাক্তারের সিরিয়াল দিতে পারবেন..............</string>
+    <string name="marquee"> ডাক্তারের নাম অন্তর্ভুক্ত করতে বা বাদ দিতে যোগাযোগ করুন, মোবাইল- 01934212802 , আপনারা আমাদের সাথে থাকুন অবশ্যই অনেক উপকারী তথ্য পাবেন </string>
+
+    <string name="app_admob_id">ca-app-pub-7166961360116455~9752541011</string>
+    <string name="banner_id_test">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
